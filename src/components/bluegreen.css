@@ -1,0 +1,28 @@
+.blue {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#blue1,
+#blue2,
+#blue3 {
+    border: 1px solid black;
+    background-color:blue;
+    flex: 1;
+    height: 200px;
+}
+
+.green{
+    border: 1px solid black;
+    background-color: green;
+    flex: 1;
+    height: 100px;
+    margin-top: 20px;
+}
+.bluegreen{
+    border: 1px solid black;
+    background-color: salmon;
+    flex: 1.5;
+    padding: 20px;
+}

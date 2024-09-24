@@ -1,0 +1,26 @@
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #16a085;
+  --background-color: #f0f0f0;
+  --list-item-background: #ecf0f1;
+  --font-family: Arial, sans-serif;
+  --font-size-large: 2.5em;
+  --font-size-medium: 2em;
+  --font-size-small: 1.2em;
+  --padding: 5px;
+  --margin: 5px;
+  --border-radius: 5px;
+  --margin-top-welcome: 20px; /* Ajuste del margen superior */
+}
+
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center; /* Centra el contenido horizontalmente */
+  align-items: flex-start; /* Alinea el contenido en la parte superior */
+  height: 100vh;
+  padding-top: 50px; /* Añadir un pequeño padding superior */
+}
